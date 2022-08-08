@@ -99,3 +99,4 @@ Most often, this is because the baud rate you set does not match the package siz
 * Angular velocity and linear acceleration are flipped when the device is set to binary output using `BG1_IMU`
 
 * Orientation and uncompensated IMU measurements cannot be acquired within a single setting using async output.
+sudo apt install screen

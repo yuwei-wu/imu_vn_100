@@ -2,17 +2,17 @@
     <arg name="output" default="screen"/>
     <arg name="imu" default="imu"/>
 
-    <arg name="port" default="/dev/ttyUSB0" />
+    <arg name="port" default="/dev/serial/by-id/usb-FTDI_USB-RS232_Cable_FT3JWY2O-if00-port0" />
     <arg name="frame_id" default="$(arg imu)"/>
     <arg name="baudrate" default="921600"/>
-    <arg name="imu_rate" default="100"/>
+    <arg name="imu_rate" default="200"/>
 
     <!-- Sync out settings -->
     <!-- to disable this just set it to < 0 -->
     <arg name="sync_rate" default="20"/>
     <arg name="sync_pulse_width_us" default="1000"/>
 
-    <arg name="binary_output" default="true"/>
+    <arg name="binary_output" default="false"/>
 
     <!-- Ros Topic settings -->
     <arg name="enable_mag" default="true"/>
